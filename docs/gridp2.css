@@ -1,0 +1,254 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    gap: 70px;
+    padding: 0px;
+    margin-top: 220px;
+    max-width: 100%;
+
+    flex-wrap: wrap;
+}
+
+.grid #grid1{
+    background-color: rgba(0, 217, 255, 0.274);
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid rgba(0, 217, 255, 0.397) 2px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#nota{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(0, 255, 255, 0.733);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#titulonota{
+    font-family: fantasy;
+    color: rgba(255, 245, 238, 0.637);
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+.grid #grid2{
+    background-color: rgba(0, 217, 255, 0.274);
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid rgba(0, 217, 255, 0.397) 2px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#sis{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(0, 255, 255, 0.733);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#titulosis{
+    font-family: fantasy;
+    color: rgba(255, 245, 238, 0.637);
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.grid #grid3{
+    background-color: rgba(0, 217, 255, 0.274);
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid rgba(0, 217, 255, 0.397) 2px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#imp{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(0, 255, 255, 0.733);
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+#tituloimp{
+    font-family: fantasy;
+    color: rgba(255, 245, 238, 0.637);
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.grid #grid4{
+    background-color: rgba(0, 217, 255, 0.274);
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid rgba(0, 217, 255, 0.397) 2px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#com{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(0, 255, 255, 0.733);
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+#titulocom{
+    font-family: fantasy;
+    color: rgba(255, 245, 238, 0.637);
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#grid1, 
+#grid2, 
+#grid3, 
+#grid4{
+    transition: all 0.3s ease-out;
+}
+
+#grid1:hover, 
+#grid2:hover, 
+#grid3:hover, 
+#grid4:hover{
+    transform: scale(1.20);
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(3, 68, 247, 0.678);
+    border-color: rgb(0, 255, 255, 0.733);
+}
+
+/*transição de cor do texto*/
+#grid1:hover #pnota,
+#grid1:hover #titulonota{
+    color: aqua;
+}
+
+#grid1:hover #nota{
+    color: rgb(0, 255, 255);
+}
+
+/*texto abaixo do titulo*/
+#pnota{
+    font-family: fantasy;
+    color: rgba(255, 255, 255, 0.637);
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+/*transição de cor do texto*/
+#grid2:hover #psis,
+#grid2:hover #titulosis{
+    color: aqua;
+}
+
+#grid2:hover #sis{
+    color: rgb(0, 255, 255);
+}
+
+/*texto abaixo do titulo*/
+#psis{
+    font-family: fantasy;
+    color: rgba(255, 255, 255, 0.637);
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+/*transição de cor do texto*/
+#grid3:hover #pimp,
+#grid3:hover #tituloimp{
+    color: aqua;
+}
+
+#grid3:hover #imp{
+    color: rgb(0, 255, 255);
+}
+
+/*texto abaixo do titulo*/
+#pimp{
+    font-family: fantasy;
+    color: rgba(255, 255, 255, 0.637);
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+/*transição de cor do texto*/
+#grid4:hover #pcom,
+#grid4:hover #titulocom{
+    color: aqua;
+}
+
+#grid4:hover #com{
+    color: rgb(0, 255, 255);
+}
+
+/*texto abaixo do titulo*/
+#pcom{
+    font-family: fantasy;
+    color: rgba(255, 255, 255, 0.637);
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+a{
+    text-decoration: none;
+}
